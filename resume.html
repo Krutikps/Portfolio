@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Krutik Shah - Resume</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{ margin:0; height:100%; background:#0A0F1A; display:flex; align-items:center; justify-content:center; }
+  .redirect-msg{
+    font-family:'JetBrains Mono', monospace; font-size:.85rem; color:#94A3B8;
+    display:flex; align-items:center; gap:8px;
+  }
+  .redirect-msg .accent{ color:#34D399; }
+  .cursor{ display:inline-block; width:.5em; height:1em; background:#34D399; animation: blink 1s step-end infinite; }
+  @keyframes blink{ 50%{ opacity:0; } }
+  noscript a{ color:#34D399; font-family:'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+  <p class="redirect-msg"><span class="accent">$</span> fetching resume<span class="cursor"></span></p>
+  <noscript><a href="assets/krutik_shah.pdf">Click here to download the resume</a></noscript>
+  <script>
+    setTimeout(function () {
+      window.location.replace('assets/krutik_shah.pdf');
+    }, 350);
+  </script>
+</body>
+</html>
