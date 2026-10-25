@@ -11,7 +11,7 @@ if (splashScreen) {
 
 // ---- hero role cycler (typewriter) ----
 const roleCycler = document.getElementById('roleCycler');
-const roles = ['AI Developer', 'Backend Engineer', 'Real-Time Systems Builder'];
+const roles = ['AI Engineer', 'Python Developer', 'LLM Application Builder'];
 
 if (roleCycler) {
   if (prefersReducedMotion) {
@@ -290,35 +290,35 @@ contactForm.addEventListener('submit', async (e) => {
 
   const faqs = [
     { id: 'skills', keywords: ['skill', 'stack', 'tech', 'tool', 'language', 'framework', 'expertise', 'technologies'],
-      answer: "Backend: Python, Django, Django REST Framework, FastAPI, REST APIs and GraphQL. Real-time and async: WebSockets, Celery and Redis. AI: LLM integration, prompt engineering and object-detection pipelines. Data and infra: PostgreSQL, SPLUNK, Docker and Git.",
+      answer: "AI and GenAI: OpenAI API, LangChain, Hugging Face Transformers, Ollama/local LLMs, prompt engineering. Backend: Python, Django, FastAPI, Django REST Framework, REST APIs, GraphQL and WebSockets. Data and processing: PostgreSQL, Redis, Celery. Infra: Git, GitLab CI/CD, Docker, RabbitMQ. Integrations: Salesforce, Playwright, web scraping.",
       link: { href: '#stack', label: 'View skills ↓' } },
     { id: 'experience', keywords: ['experience', 'work history', 'job', 'career', 'company', 'employer', 'background', 'role'],
-      answer: "Currently a Software Engineer at Sigma Solve Pvt. Ltd., building real-time trading and analytics backends. Before that, an internship at Crest Data working on SPLUNK dashboards.",
+      answer: "Currently a Software Engineer (Python & AI) at Sigma Solve Inc., integrating OpenAI APIs and LLM workflows into Python applications. Before that, a Python Developer internship at Crest Data working on Splunk dashboards.",
       link: { href: '#experience', label: 'View experience ↓' } },
     { id: 'years_experience', keywords: ['years of experience', 'how long have you', 'how experienced', 'how many years'],
       answer: "Working professionally as a Software Engineer since September 2024, after an internship in mid-2024. Full timeline's in the Experience section.",
       link: { href: '#experience', label: 'View experience ↓' } },
     { id: 'projects', keywords: ['project', 'built', 'shipped', 'portfolio', 'apps', 'systems'],
-      answer: "Key projects: AI369 (F1 race video highlights with object detection), AiFitCoaches (fitness and diet backend on FastAPI and Celery) and BirchGold (audio-to-text with prompt engineering).",
+      answer: "Key projects: AI369 (F1 race video highlights with Roboflow object detection), AiFitCoaches (AI fitness and diet app with image-based calorie estimation, FastAPI and Celery) and BirchGold (audio-to-text with prompt engineering and response validation).",
       link: { href: '#systems', label: 'View projects ↓' } },
     { id: 'resume', keywords: ['resume', 'cv', 'download'], answer: "Here you go.",
       link: { href: 'resume.html', label: 'Download resume ↗', external: true } },
     { id: 'contact', keywords: ['contact', 'hire', 'reach', 'email', 'connect', 'linkedin', 'github', 'talk', 'get in touch'],
-      answer: "Best way is the contact form, or email krutikpshah2003@gmail.com.",
+      answer: "Best way is the contact form, or email krutikgreat@gmail.com.",
       link: { href: '#contact', label: 'Go to contact ↓' } },
     { id: 'availability', keywords: ['available', 'availability', 'open to work', 'looking for', 'opportunities', 'freelance'],
-      answer: "Open to backend and AI engineering roles and interesting problems. Best way to follow up is the Contact section.",
+      answer: "Open to AI engineering and Python backend roles and interesting problems. Best way to follow up is the Contact section.",
       link: { href: '#contact', label: 'Go to contact ↓' } },
     { id: 'salary', keywords: ['salary', 'compensation', 'pay range', 'rate', 'cost to hire'],
       answer: "That's a conversation for a real inbox, not a chatbot. Reach out directly and we can talk specifics.",
       link: { href: '#contact', label: 'Go to contact ↓' } },
     { id: 'education', keywords: ['education', 'degree', 'college', 'university', 'study', 'school'],
-      answer: "BE in Information Technology from Gandhinagar Institute of Technology (2021–2024, GPA 8.65/10), after a Diploma at Government Polytechnic (2018–2021, GPA 8.99/10)." },
+      answer: "B.Tech in Information Technology from Gandhinagar Institute of Technology (2021–2024, CGPA 8.65), after a Diploma in IT at Government Polytechnic (2018–2021, CGPA 8.99)." },
     { id: 'about', keywords: ['who are you', 'about you', 'who is krutik', 'introduce', 'yourself'],
-      answer: "I'm a Backend Engineer building scalable real-time applications with Python, Django and FastAPI, plus AI/LLM integrations and async processing.",
+      answer: "I'm an AI-focused Software Engineer building production-ready Generative AI solutions with Python, FastAPI, OpenAI APIs and LangChain, plus async processing with Celery and Redis.",
       link: { href: '#telemetry', label: 'Read more ↓' } },
     { id: 'philosophy', keywords: ['philosophy', 'approach', 'principle', 'mindset', 'belief', 'focus'],
-      answer: "Backend automation, async processing and distributed systems that hold up under live data." },
+      answer: "Production-ready Generative AI: LLM integration, prompt engineering and async processing that hold up in real use." },
     { id: 'greeting', keywords: ['hi', 'hello', 'hey', 'yo', 'howdy', 'sup'],
       answer: "Hello!! I know this site inside out. Ask me about skills, projects, experience, resume, or how to get in touch." },
     { id: 'thanks', keywords: ['thanks', 'thank you', 'cheers'], answer: "Anytime! Anything else you want to know?" }
@@ -421,13 +421,13 @@ contactForm.addEventListener('submit', async (e) => {
   }
 
   const detailAnswers = {
-    projects: { text: "AI369 builds highlight clips from F1 race footage using Roboflow and custom object detection models. AiFitCoaches is a FastAPI and Celery backend for meal scheduling, notifications and scalable APIs. BirchGold covers audio-to-text processing, prompt engineering and automated response validation in Python.",
+    projects: { text: "AI369 runs Roboflow object detection over F1 race frames to generate highlight clips. AiFitCoaches adds image-based calorie estimation and FastAPI/Celery workflows to a fitness and diet app. BirchGold covers audio-to-text processing, prompt engineering and automated response validation in Python.",
       link: { href: '#systems', label: 'View projects ↓' } },
-    experience: { text: "Day to day at Sigma Solve: Django, Celery and PostgreSQL backends for real-time trading and analytics, WebSocket/GraphQL/REST pipelines for live data, customized Django admin tools, Celery automation for alerts and scheduling, and Redis and third-party integrations.",
+    experience: { text: "Day to day at Sigma Solve: integrating OpenAI APIs into Python workflows, designing prompts, building REST APIs and backend services around AI features, Celery and Redis background automation, and PostgreSQL-backed workflows.",
       link: { href: '#experience', label: 'View experience ↓' } },
-    skills: { text: "Grouped into six areas on the site: backend services, real-time and async, AI/LLM engineering, data tools, infrastructure and integrations.",
+    skills: { text: "Grouped into six areas on the site: AI and GenAI, programming and backend, databases and processing, infrastructure and CI/CD, integrations and automation, and soft skills.",
       link: { href: '#stack', label: 'View skills ↓' } },
-    about: { text: "Backend automation, async processing and distributed systems that hold up under live data, with AI/LLM integrations where they help.",
+    about: { text: "Production-ready Generative AI: LLM integration, prompt engineering and async processing that hold up in real use.",
       link: { href: '#telemetry', label: 'Read more ↓' } }
   };
 

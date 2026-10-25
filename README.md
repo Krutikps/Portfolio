@@ -4,7 +4,7 @@ Static site (plain HTML/CSS/JS, no build step) — deploy it anywhere that serve
 
 ## Before you deploy
 
-- Contact form: get a free access key at https://web3forms.com and replace `YOUR_WEB3FORMS_ACCESS_KEY` in `index.html`. Until then the form shows a "could not send" message and visitors can use the email link.- Swap `assets/krutik_shah.pdf` if you update your resume — keep the filename or update the link in `index.html`.
+- Contact form: get a free access key at https://web3forms.com and replace `YOUR_WEB3FORMS_ACCESS_KEY` in `index.html`. Until then the form shows a "could not send" message and visitors can use the email link.- Swap `assets/Krutik_Shah.pdf` if you update your resume — keep the filename or update the link in `index.html`.
 
 ## Deploy — pick one
 
